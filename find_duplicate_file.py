@@ -31,8 +31,6 @@ def find_duplicate_file(abspath):
             print('Duplicate times:\t'+ str(__all_files__[key]))
             print("Duplicate file name:\t" + key)
             print("Duplicate file path:")
-            # print("'"+ key  + "'" + ' Duplicate ' + str(__all_files__[key]) + ' times:')
-            # print('=========='+'Duplicate ' + str(__all_files__[key] - 1) + ' times'+'==========')
             for file_abspath in file_abspaths:
                 print("  " + file_abspath)
             print('\n')
